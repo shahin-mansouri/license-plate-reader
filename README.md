@@ -46,7 +46,7 @@ This project implements a digit recognition system using multi-scale template ma
 2. **Run the script:**
 
    ```bash
-   python main.py
+   python plate_image_reader2.py
    ```
 
 3. **View the results:**
@@ -55,7 +55,7 @@ This project implements a digit recognition system using multi-scale template ma
 
 ## Configuration
 
-You can adjust various parameters in `main.py` to fine-tune detection:
+You can adjust various parameters in `plate_image_reader2.py` to fine-tune detection:
 
 - **Template Matching Threshold:** Modify the threshold in the `multi_scale_template_matching` function (default is set to `0.8`).
 - **Scale Range:** Adjust the `scales` parameter (default is `np.arange(0.5, 1.2, 0.1)`) in the template matching function.
