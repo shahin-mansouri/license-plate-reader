@@ -1,6 +1,3 @@
-
-
-```markdown
 # Digit Recognition with Multi-scale Template Matching
 
 This project implements a digit recognition system using multi-scale template matching with OpenCV. It processes an input image containing digits, applies noise reduction and contrast enhancement, and uses template matching to locate and recognize digits based on provided template images. The system also employs non-maximum suppression to filter overlapping detections and uses corner detection for visual feedback.
@@ -25,7 +22,7 @@ This project implements a digit recognition system using multi-scale template ma
    ```bash
    git clone https://github.com/shahin-mansouri/license-plate-reader.git
    cd license-plate-reader
-   ```
+
 
 2. **Install the required packages:**
 
